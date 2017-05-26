@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Alpha",
+  "description": "广告检测插件",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "cookies",
+    "sessions",
+    "history",
+    "webRequest"
+  ]
+}
